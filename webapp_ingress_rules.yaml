@@ -4,7 +4,7 @@ metadata:
   name: webapp-ingress
 spec:
   rules:
-  - host: my.kubernetes.example
+  - host: webapp.ingress.example
     http:
       paths:
       - path: /webapp1
