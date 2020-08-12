@@ -7,14 +7,14 @@ spec:
   - host: webapp.ingress.example
     http:
       paths:
-      - path: /webapp1
+      - path: /webapp01
         backend:
-          serviceName: webapp1-svc
+          serviceName: webapp01-svc
           servicePort: 80
-      - path: /webapp2
+      - path: /webapp02
         backend:
-          serviceName: webapp2-svc
+          serviceName: webapp02-svc
           servicePort: 80
       - backend:
-          serviceName: webapp3-svc
+          serviceName: webapp03-svc
           servicePort: 80
