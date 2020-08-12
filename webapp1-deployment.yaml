@@ -29,4 +29,3 @@ spec:
   - port: 80
   selector:
     app: webapp1
----
